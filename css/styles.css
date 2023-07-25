@@ -39,6 +39,7 @@ ol {
 }
 
 .container {
+    display: flex;
     /* width: 1158px; */
     width: 100%;
     max-width: 1158px;
@@ -76,6 +77,16 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu-item {
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -94,12 +105,13 @@ ol {
     color: var(--blue, #404bbf);
 }
 
-.header-menu-item {
-
-}
-
 .address {
     font-style: normal;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-link {
