@@ -40,13 +40,15 @@ ol {
 
 .container {
     display: flex;
-    /* width: 1158px; */
-    width: 100%;
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid red;
+}
+
+.container-head {
+
 }
 
 .visually-hidden {
@@ -61,6 +63,10 @@ ol {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+img {
+    display: block;
 }
 
 /* ----------------HEADER---------------- */
@@ -100,7 +106,7 @@ ol {
 }
 
 .header-menu-item {
-    padding: 24px 0;
+
 }
 
 .header-menu-link {
@@ -109,6 +115,7 @@ ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -121,6 +128,7 @@ ol {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-address {
@@ -165,9 +173,12 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
+    margin: 0 auto;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 500;
