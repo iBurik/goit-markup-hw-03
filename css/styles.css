@@ -12,6 +12,24 @@ body {
     background-color: var(--white, #FFFFFF);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .link {
     text-decoration: none;
 }
@@ -20,9 +38,22 @@ body {
     list-style-type: none;
 }
 
-
+.container {
+    /* width: 1158px; */
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 
 /* ----------------HEADER---------------- */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-logo-colour {
     color: var(--navyblue, #2E2F42);
@@ -82,7 +113,13 @@ body {
 /* ----------------HERO---------------- */
 
 .hero {
-    background-color: var(--navyblue, #2E2F42);
+     background-color: var(--navyblue, #2E2F42);
+}
+
+.hero-wrap {
+
+    /* border-radius: 30px;
+    padding: 184px 188px 470px 470px; */
 }
 
 .hero-title {
