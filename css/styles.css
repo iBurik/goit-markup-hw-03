@@ -49,6 +49,20 @@ ol {
     outline: 2px solid red;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ----------------HEADER---------------- */
 
 .header {
@@ -141,8 +155,7 @@ ol {
 
     /* border-radius: 30px;
     padding: 184px 188px 470px 470px; */
-    max-width: 496px;
-    
+
 }
 
 .hero-title {
@@ -152,7 +165,7 @@ ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -181,15 +194,20 @@ ol {
 
 /* ----------------ADVANTAGES---------------- */
 
-.advantages {}
+.advantages {
+    padding: 120px 0;
+}
 
-.advantages-title {}
-
-.advantages-list {}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
 
 .list {}
 
-.advantages-item {}
+.advantages-item {
+    width: calc((100%-72px)/4);
+}
 
 .advantages-subtitle {
     color: var(--navyblue, #2E2F42);
@@ -197,6 +215,7 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-description {
