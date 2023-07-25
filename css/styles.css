@@ -51,8 +51,15 @@ ol {
 /* ----------------HEADER---------------- */
 
 .header {
+    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-colour {
