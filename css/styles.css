@@ -83,10 +83,11 @@ ol {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    
 }
 
 .header-menu-link {
@@ -133,6 +134,7 @@ ol {
 
 .hero {
      background-color: var(--navyblue, #2E2F42);
+     padding: 188px 0;
 }
 
 .hero-wrap {
@@ -148,6 +150,7 @@ ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -159,6 +162,11 @@ ol {
     background-color: var(--iris, #4D5AE5);
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover {
