@@ -39,7 +39,7 @@ ol {
 }
 
 .container {
-    display: flex;
+
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -377,6 +377,9 @@ img {
     background-color: var(--cloud, #F4F4FD);
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .btn-filter:hover {
@@ -397,9 +400,7 @@ img {
 }
 
 .btn-menu {
-    padding: 12px 24px;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
+
 }
 
 .btn-menu:hover {
