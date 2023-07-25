@@ -141,6 +141,8 @@ ol {
 
     /* border-radius: 30px;
     padding: 184px 188px 470px 470px; */
+    max-width: 496px;
+    
 }
 
 .hero-title {
@@ -150,7 +152,7 @@ ol {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
+
 }
 
 .hero-btn {
