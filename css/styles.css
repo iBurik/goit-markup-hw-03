@@ -97,11 +97,10 @@ ol {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-menu-item {
-    
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -229,7 +228,9 @@ ol {
 
 /* ----------------DOING---------------- */
 
-.doing {}
+.doing {
+    padding-bottom: 120px;
+}
 
 .doing-title {
     color: var(--navyblue, #2E2F42);
@@ -239,19 +240,23 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.doing-list {}
+.doing-list {
+    display: flex;
+    gap: 24px;
+}
 
-
-.list {}
-
-.doing-images {}
+.doing-images {
+    width: calc((100%-48px)/3);
+}
 
 /* ----------------TEAM---------------- */
 
 .team {
     background-color: var(--cloud, #F4F4FD);
+    padding: 120px 0;
 }
 
 .team-title {
@@ -262,16 +267,22 @@ ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    
+    display: flex;
+    gap: 24px;
 }
-
-.list {}
 
 .team-item {
     background-color: var(--white, #FFF);
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-team {
+    padding: 32px 0;
 }
 
 .team-name {
@@ -281,6 +292,7 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-name-position {
@@ -296,6 +308,7 @@ ol {
 
 .footer {
     background-color: var(--navyblue, #2E2F42);
+    padding: 100px 0;
 }
 
 .footer-logo-colour {
@@ -318,6 +331,8 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-description {
