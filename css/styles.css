@@ -389,11 +389,13 @@ img {
 .btn-filter:hover {
     background-color: #404bbf;
     color: var(--white, #FFFFFF)
+    border: 1px solid transparent;
 }
 
 .btn-filter:focus {
     background-color: #404bbf;
     color: var(--white, #FFFFFF)
+    border: 1px solid transparent;
 }
 
 .button-list {
@@ -408,11 +410,11 @@ img {
 }
 
 .btn-menu:hover {
-    border: 1px solid transparent;
+    border: 1px solid #e7e9fc;
 }
 
 .btn-menu:focus {
-    border: 1px solid transparent;
+
 }
 
 
